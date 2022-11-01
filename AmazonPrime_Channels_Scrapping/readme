@@ -1,0 +1,15 @@
+Scraping Amazon Prime Video Channels Page
+Step 1:
+By taking the channel url and getting the response by requesting the url by requests.get(url)
+Check for status code
+Step 2:
+parse the page by using BeautifulSoup
+go through the html document for required information
+Step 3:
+Collecting top Channels in the page and their respective series from the Amazon Prime Channels Page
+We got 6 Channels and their series
+Appending the Channels and Series to Dictionary
+Step 4:
+Using Pandas
+Convert the dictionary to DataFrame
+the DataFrame is stored in path in csv format
